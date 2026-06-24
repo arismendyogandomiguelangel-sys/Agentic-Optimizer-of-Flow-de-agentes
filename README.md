@@ -1,6 +1,13 @@
 # Agentic Optimizer of Flow de agentes
 
-Este repositorio contiene la habilidad **AgentNet Parallel Flow**, diseñada para estandarizar y optimizar la forma en que los modelos (como Claude) despliegan subagentes con tareas paralelas.
+> [!WARNING]
+> **REPOSITORIO SEMILLA (OBSOLETO)**
+> Este repositorio sirvió como la prueba de concepto (semilla) para la orquestación en paralelo.
+> **El estándar oficial para producción en la agencia ALiHaneD ahora reside en:**
+> 👉 [TeamParelelo-Subagentico](https://github.com/ALiHaneD/TeamParelelo-Subagentico)
+> Por favor, dirígete a ese repositorio para obtener la skill maestra actualizada.
+
+Este repositorio contiene la habilidad inicial **AgentNet Parallel Flow**, diseñada para estandarizar y optimizar la forma en que los modelos (como Claude) despliegan subagentes con tareas paralelas.
 
 La premisa principal de este proyecto es que el modelo base asume el rol de **Orquestador** e invoca subagentes de manera automática utilizando los modelos más eficientes para cada tipo de tarea:
 
